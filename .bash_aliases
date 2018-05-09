@@ -24,5 +24,8 @@ alias speedtest='wget -O /dev/null http://ftp.ntua.gr/pub/linux/debian-cd/curren
 alias clipdir='pwd | xclip'
 alias back='cd $OLDPWD'
 alias now='date '\''+%A %d %B %Y - %T'\'''
+
+# For mpsyt to work you need https://github.com/mps-youtube/mps-youtube and https://github.com/rg3/youtube-dl
+
 alias playstewie='mpsyt playurl https://www.youtube.com/watch?v=rdHZG7XbpBc'
 alias rickroll='mpsyt playurl https://www.youtube.com/watch?v=XOP10LM0c-A'
