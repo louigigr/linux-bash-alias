@@ -75,6 +75,19 @@ alias back='cd $OLDPWD'
 # Add command to show full date and time
 alias now='date '\''+%A %d %B %Y - %T'\'''
 
+# apt-get aliases from https://github.com/AdamWhittingham/bash-config/blob/master/bash_adam
+alias sai='apt-get install'
+alias sar='apt-get remove'
+alias saar='apt-get autoremove'
+alias sau='apt-get update'
+alias saup='apt-get upgrade'
+
+# Netstat operations from https://github.com/sperner/BASH/blob/master/bash_aliases
+alias netstat80="netstat -plan|grep :80|awk {'print $5'}|cut -d: -f 1|sort|uniq -c|sort -nk 1"
+alias netstatports="netstat -nape --inet"
+alias netstatpid="netstat -tlnp"
+alias netstatapps="netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq"
+
 # For mpsyt to work you need 
 # https://github.com/mps-youtube/mps-youtube
 # and
