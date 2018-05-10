@@ -111,3 +111,25 @@ To bypass an alias, preceed the command with a `'\'`
 `alias playstewie='mpsyt playurl https://www.youtube.com/watch?v=rdHZG7XbpBc'`
 
 `alias rickroll='mpsyt playurl https://www.youtube.com/watch?v=XOP10LM0c-A'`
+
+26. Apt-get aliases. Grabbed from [here](https://github.com/AdamWhittingham/bash-config/blob/master/bash_adam)
+
+`alias sai='apt-get install'`
+
+`alias sar='apt-get remove'`
+
+`alias saar='apt-get autoremove'`
+
+`alias sau='apt-get update'`
+
+`alias saup='apt-get upgrade'`
+
+27. Netstat operations. Grabbed from [here](https://github.com/sperner/BASH/blob/master/bash_aliases)
+
+`alias netstat80="netstat -plan|grep :80|awk {'print $5'}|cut -d: -f 1|sort|uniq -c|sort -nk 1"`
+
+`alias netstatports="netstat -nape --inet"`
+
+`alias netstatpid="netstat -tlnp"`
+
+`alias netstatapps="netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq"`
