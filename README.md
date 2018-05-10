@@ -45,7 +45,7 @@ or
 
 # Restore
 
-> To restore your previous .bash_aliases.old run the following command
->*`cp ~/.bash_aliases.old ~/.bash_aliases`*
->or
->*`sudo cp ~/.bash_aliases.old ~/.bash_aliases`*
+To restore your previous .bash_aliases.old run the following command
+*`cp ~/.bash_aliases.old ~/.bash_aliases`*
+or
+*`sudo cp ~/.bash_aliases.old ~/.bash_aliases`*
