@@ -106,7 +106,7 @@ To bypass an alias, preceed the command with a `'\'`
 
 `alias now='date '\''+%A %d %B %Y - %T'\'''`
 
-25. For mpsyt to work you need https://github.com/mps-youtube/mps-youtube and https://github.com/rg3/youtube-dl
+25. For mpsyt to work you need [mps-youtube](https://github.com/mps-youtube/mps-youtube) and [youtube-dl](https://github.com/rg3/youtube-dl)
 
 `alias playstewie='mpsyt playurl https://www.youtube.com/watch?v=rdHZG7XbpBc'`
 
