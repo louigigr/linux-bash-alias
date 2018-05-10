@@ -1,4 +1,6 @@
-# linux-bash-alias
+![alt text](https://github.com/louigigr/linux-bash-alias/raw/master/bash.png "Linux Bash Alias")
+
+# Linux Bash Aliases List
 A list of cool aliases to use in bash
 
 You can find the full aliases list with descriptions [here](./aliases-list.md)
