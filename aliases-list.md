@@ -1,3 +1,11 @@
+# Aliases List
+
+## NOTE
+To bypass an alias, preceed the command with a `'\'`
+> EG:  >ls< is aliased, to use the normal "ls" type:  `\ls`
+
+## Full List
+
 1. Get IP
 
 `alias myip='echo $(wget -qO - https://api.ipify.org)'`
