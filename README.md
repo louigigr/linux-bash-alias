@@ -23,9 +23,9 @@ or
 
 ### Downloading Directly using wget
 
-`wget -o ~/.bash_aliases https://raw.githubusercontent.com/louigigr/linux-bash-alias/master/.bash_aliases`
+`wget -O ~/.bash_aliases https://raw.githubusercontent.com/louigigr/linux-bash-alias/master/.bash_aliases`
 
 or
 
-`sudo wget -o ~/.bash_aliases https://raw.githubusercontent.com/louigigr/linux-bash-alias/master/.bash_aliases`
+`sudo wget -O ~/.bash_aliases https://raw.githubusercontent.com/louigigr/linux-bash-alias/master/.bash_aliases`
 
