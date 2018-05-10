@@ -1,6 +1,8 @@
 # linux-bash-alias
 A list of cool aliases to use in bash
 
+You can find the full aliases list with descriptions [here](./aliases-list.md)
+
 # Usage
 To use this list simply paste the contents of [.bash_aliases](./.bash_aliases) or download the raw version of [the file](./.bash_aliases) and put it in your home directory. The second method may overwrite your current aliases so keep a copy handy.
 
